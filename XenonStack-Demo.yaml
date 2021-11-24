@@ -5,9 +5,7 @@ metadata:
   description: |
     A Catalog Demo Designed By Spandan
   annotations:
-    backstage.io/kubernetes-id: 
-     helm.sh/hook: pre-install
-     helm.sh/hook-delete-policy: before-hook-creation
+    backstage.io/kubernetes-id: helm.sh/hook: pre-install
 spec:
   type: service
   owner: Spandan Saha

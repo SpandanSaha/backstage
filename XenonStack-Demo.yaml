@@ -5,7 +5,8 @@ metadata:
   description: |
     A Catalog Demo Designed By Spandan
   annotations:
-    backstage.io/kubernetes-id: value
+    backstage.io/kubernetes-id: 849dd756-710b-4968-95dc-b7ac13425ee4
+
 spec:
   type: service
   owner: Spandan Saha

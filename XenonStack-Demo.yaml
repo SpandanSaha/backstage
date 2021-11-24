@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: XenonStack-Demo
+  name: Kubernetes-Demo
   description: |
-    A service for testing Backstage functionality. Configured for
-    GitHub Actions.
+    A Catalog Demo Designed By Spandan
   annotations:
-    backstage.io/kubernetes-id: value
+    backstage.io/kubernetes-id: 
+     helm.sh/hook: pre-install
+     helm.sh/hook-delete-policy: before-hook-creation
 spec:
   type: service
   owner: Spandan Saha

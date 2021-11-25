@@ -5,7 +5,7 @@ metadata:
   description: |
     A Component For Testing.
   annotations:
-    backstage.io/kubernetes-id: ”@xenon”
+    backstage.io/kubernetes-id: '@xenon'
 spec:
   type: service
   owner: Spandan

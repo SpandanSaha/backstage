@@ -7,6 +7,7 @@ metadata:
     GitHub Actions.
   annotations:
    'backstage.io/kubernetes-id': dice-roller
+   'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
 spec:
   type: service
   owner: CloudOps

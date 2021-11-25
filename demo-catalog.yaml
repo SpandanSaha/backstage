@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Kubernetes-Demo
+  name: sample-service-1
   description: |
-    A Catalog Demo Designed By Spandan
+    A service for testing Backstage functionality. Configured for
+    GitHub Actions.
   annotations:
-    'backstage.io/kubernetes-id': @xenon
+    backstage.io/kubernetes-id: ”@xenon”
 spec:
   type: service
-  owner: Spandan Saha
+  owner: my-team-name
   lifecycle: production

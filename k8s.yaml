@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dice-roller
+  annotations:
+    'backstage.io/kubernetes-id': dice-roller
+    #'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
+spec:
+  type: service
+  lifecycle: production
+  owner: guest

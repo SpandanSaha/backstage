@@ -6,7 +6,7 @@ metadata:
     A service for testing Backstage functionality. Configured for
     GitHub Actions.
   annotations:
-   'backstage.io/kubernetes-id': @xenon
+   'backstage.io/kubernetes-id': dice-roller
 spec:
   type: service
   owner: CloudOps

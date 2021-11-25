@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo-1
+  name: sample-service-1
   description: |
-    A Component For Testing.
+    A service for testing Backstage functionality. Configured for
+    GitHub Actions.
   annotations:
-    backstage.io/kubernetes-id: '@xenon'
+    github.com/project-slug: roadiehq/sample-service
 spec:
   type: service
-  owner: Spandan
+  owner: my-team-name
   lifecycle: production

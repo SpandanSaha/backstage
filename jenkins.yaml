@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example
+  description: example.com
+  annotations:
+    jenkins.io/job-full-name: test1
+spec:
+  type: website
+  lifecycle: production
+  owner: user:guest

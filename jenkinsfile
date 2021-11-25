@@ -1,0 +1,42 @@
+properties([parameters([choice(choices: ['Init', 'Plan', 'Apply', 'Destroy'], name: 'Stage')])])
+pipeline {
+	agent any
+	tools {
+        terraform 'terraform'
+    }
+	stages {
+		stage('Init'){
+			when {
+				expression { Stage == 'Init'}
+			}
+			steps{
+				sh label: '', script: 'terraform init /home/ubuntu/terra'
+			}
+		}
+		stage('Plan'){
+			when {
+				expression { Stage == 'Plan'}
+			}
+			steps{
+				sh label: '', script: 'terraform plan /home/ubuntu/terra'
+			}
+		}
+		stage('Apply'){
+			when {
+				expression { Stage == 'Apply'}
+			}
+			steps{
+				sh label: '', script: 'terraform apply --auto-approve /home/ubuntu/terra'
+			}
+		}
+		stage('Destroy'){
+			when {
+				expression { Stage == 'Destroy'}
+			}
+			steps{
+				sh label: '', script: 'terraform destroy --auto-approve /home/ubuntu/terra'
+			}
+		}
+		
+	}
+}

@@ -5,7 +5,7 @@ metadata:
   description: |
     A Catalog Demo Designed By Spandan
   annotations:
-    backstage.io/kubernetes-id: @xenon
+    'backstage.io/kubernetes-id': @xenon
 spec:
   type: service
   owner: Spandan Saha

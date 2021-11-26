@@ -4,7 +4,7 @@ metadata:
   name: dice-roller
   annotations:
     'backstage.io/kubernetes-id': dice-roller
-    #'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
+    'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
 spec:
   type: service
   lifecycle: production

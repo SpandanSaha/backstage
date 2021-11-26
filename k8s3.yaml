@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dicer-roller
+  name: dice-roller
   links:
     - url: https://dataops-cluster-apiserver.neuralcompany.team:6443
       title: kubernetes-dasboard

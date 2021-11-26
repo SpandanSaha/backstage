@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: <ENTITY_NAME>
+  annotations:
+    'backstage.io/kubernetes-id': <ENTITY_NAME>
+spec:
+  type: service
+  lifecycle: production
+  owner: guest

@@ -1,10 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dice-roller
+  name: k8s
   annotations:
-    'backstage.io/kubernetes-id': dice-roller
-    'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
+    'backstage.io/kubernetes-label-selector': 'app=nginx'
 spec:
   type: service
   lifecycle: production

@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: jenkins
-  description: demo
+  name: Jenkins-Demo
+  description: Jenkins Integration With Bcakstage
   links:
     - url: http://34.125.87.26:8080/
-      title: My Dashboard
+      title: Jenkins-XenonStack_Dashboard
       icon: dashboard
   annotations:
-    jenkins.io/job-full-name: test1
+    jenkins.io/job-full-name: Backstage/backstage-demo
 spec:
   type: website
   lifecycle: production

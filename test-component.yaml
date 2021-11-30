@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: xenonstack-service
+  name: Demo-GitOps
   description: |
     A service for testing Backstage functionality. Configured for
     GitHub Actions.
   annotations:
-   'backstage.io/kubernetes-id': dice-roller
-   'backstage.io/kubernetes-label-selector': 'app=my-app,component=front-end'
+   github.com/project-slug: SpandanSaha/backstage
 spec:
   type: service
   owner: CloudOps

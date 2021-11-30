@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: k8s
+  name: Kuberntes-Sample
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=nginx'
 spec:
   type: service
   lifecycle: production
-  owner: guest
+  owner: CloudOps

@@ -4,7 +4,7 @@ metadata:
   name: Self-Service
   description: A developer portal with access of self service
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=nginx'
+    'backstage.io/kubernetes-label-selector': 'app=backstage'
     github.com/project-slug: SpandanSaha/backstage
     jenkins.io/job-full-name: Backstage/backstage-demo
 #  tags:

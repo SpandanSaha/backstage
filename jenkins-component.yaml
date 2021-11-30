@@ -10,7 +10,7 @@ metadata:
   annotations:
     jenkins.io/job-full-name: Backstage/backstage-demo
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: CloudOps
   

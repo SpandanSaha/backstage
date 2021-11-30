@@ -7,7 +7,6 @@ metadata:
     - go
   annotations:
     'backstage.io/kubernetes-label-selector': 'app=backstage'
-    'backstage.io/kubernetes-label-selector': 'app=nginx'
 spec:
   kubernetes:
     selector:

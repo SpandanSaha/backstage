@@ -7,10 +7,10 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app=nginx'
     github.com/project-slug: SpandanSaha/backstage
     jenkins.io/job-full-name: Backstage/backstage-demo
-  tags:
-    - Kubernetes
-    - GitOps
-    - Jenkins
+#  tags:
+#    - Kubernetes
+#    - GitOps
+ #   - Jenkins
   links:
     - url: https://xenonstack-sre.atlassian.net/servicedesk/customer/portal/4
       title: SRE Support

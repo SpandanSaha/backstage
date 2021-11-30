@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo
+  description: testing
+  tags:
+    - go
+  annotations:
+    "backstage.io/kubernetes-id": "dice-roller"
+spec:
+  kubernetes:
+    selector:
+      matchLabels:
+        name: dice-roller
+        version: canary
+  type: service
+  lifecycle: production
+  owner: guest

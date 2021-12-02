@@ -1,4 +1,20 @@
 apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: CloudOps
+  description: The Cloud Infrastructure team combines infrastructure, operations, governance, any remaining data center operations, architects, security, storage, networking, and help desk teams into an ecosystem that helps build and maintain the virtualized platform.
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+   # email: team-a@example.com
+   # picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
+  children: []
+
+
+
+apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: Parul_Agarrwal
@@ -7,7 +23,7 @@ spec:
     displayName: Parul Agarrwal
     email: parul@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [CloudOps, employees]
+  memberOf: [CloudOps]
   
 ---
   
@@ -20,7 +36,7 @@ spec:
     displayName: Spandan Saha
     email: spandan@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [CloudOps, employees]
+  memberOf: [CloudOps]
   
 ---  
 
@@ -33,7 +49,7 @@ spec:
     displayName: Ekamdeep Singh
     email: ekamdeep@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [CloudOps, employees]
+  memberOf: [CloudOps]
   
 --
 
@@ -46,4 +62,4 @@ spec:
     displayName: Niharika Zirvi
     email: niharika@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [CloudOps, employees]
+  memberOf: [CloudOps]

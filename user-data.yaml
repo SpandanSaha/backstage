@@ -11,9 +11,7 @@ spec:
    # picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
   parent: backstage
   children: []
-
-
-
+---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -24,9 +22,7 @@ spec:
     email: parul@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [CloudOps]
-  
 ---
-  
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -37,9 +33,7 @@ spec:
     email: spandan@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
   memberOf: [CloudOps]
-  
----  
-
+---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -49,10 +43,8 @@ spec:
     displayName: Ekamdeep Singh
     email: ekamdeep@xenonstack.com
     #picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [CloudOps]
-  
---
-
+  memberOf: [CloudOps] 
+---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:

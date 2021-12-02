@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: Parul_Agarrwal
+spec:
+  profile:
+    displayName: Parul Agarrwal
+    email: parul@xenonstack.com
+    #picture: https://example.com/staff/jenny-with-party-hat.jpeg
+  memberOf: [CloudOps,player]

@@ -8,7 +8,7 @@ metadata:
     - go
     - experimental
 spec:
-  owner: web@example.com
+  owner: spandan@xenonstack.com
   type: website
   parameters:
     - title: Provide some simple information
